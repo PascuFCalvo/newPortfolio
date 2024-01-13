@@ -1,0 +1,29 @@
+{
+  "name": "portfolio-sample",
+  "version": "1.0.8",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start && next export"
+  },
+  "dependencies": {
+    "css": "^3.0.0",
+    "framer-motion": "^7.6.17",
+    "next": "^14.0.4",
+    "next-dark-mode": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-image-gallery": "^1.2.11",
+    "react-modal": "^3.16.1",
+    "styled-components": "^6.1.8",
+    "styled-normalize": "^8.0.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "eslint-config-prettier": "^8.5.0",
+    "postcss": "^8.4.33",
+    "prettier": "^2.8.0"
+  }
+}

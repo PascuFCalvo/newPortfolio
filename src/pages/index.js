@@ -10,7 +10,7 @@ import Timeline from "../components/TimeLine/TimeLine";
 const Home = () => {
   return (
     <Layout>
-      <Section grid center>
+      <Section>
         <Hero />
       </Section>
       <Timeline />

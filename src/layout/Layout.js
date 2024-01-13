@@ -15,7 +15,7 @@ const variants = {
 export const Layout = ({ children }) => {
   return (
     <Container>
-      <Header />
+    <Header />
       <motion.main
         initial="hidden"
         animate="enter"

@@ -148,6 +148,15 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
+      <SectionDivider divider />
+      <div className="test">
+        <SectionTitle>Contact </SectionTitle>
+        <SectionText>
+          Hola@pascufcalvo.com <br />
+          Pascual.fernandez.calvo@gmail.com <br />
+          +34 630 332 133
+        </SectionText>
+      </div>
     </Section>
   );
 };

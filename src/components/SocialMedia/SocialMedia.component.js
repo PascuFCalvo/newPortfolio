@@ -1,6 +1,5 @@
 import { SocialContainer, SocialIcons } from "./SocialMedia.styles";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { CgMail } from "react-icons/cg";
 
 export default function SocialMedia({ inFooter }) {
   return (

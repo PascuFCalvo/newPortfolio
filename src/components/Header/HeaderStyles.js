@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
+  width: 100vw;
   display: grid;
   grid-template-columns: 100px 1fr auto;
   grid-column-gap: 2rem;
-  padding: 2rem 1rem;
+  padding: 2rem 4rem;
   position: ${(props) => (props.sticky ? "sticky" : null)};
   top: ${(props) => (props.sticky ? 0 : null)};
   background-color: ${(props) => props.theme.colors.bodyBgColor};
